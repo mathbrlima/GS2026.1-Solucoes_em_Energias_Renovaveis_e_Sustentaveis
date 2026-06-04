@@ -1,1 +1,1 @@
-# GS2026.1-Solu-es_em_Energias_Renov-veis_e_Sustent-veis
+# GS2026.1 - Soluções em Energias Renováveis e Sustentáveis
