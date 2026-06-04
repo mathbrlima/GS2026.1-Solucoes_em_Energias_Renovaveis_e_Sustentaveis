@@ -61,9 +61,9 @@ A missão utiliza energia solar como principal fonte de energia renovável.
 O sistema monitora a geração energética dos painéis solares e compara com o consumo da nave, permitindo avaliar a eficiência energética e a sustentabilidade da operação.
 
 ## Tecnologias Utilizadas
-Python
+- Python
 
-Colorama
+- Colorama
 
 ## Exemplo de Uso
 
