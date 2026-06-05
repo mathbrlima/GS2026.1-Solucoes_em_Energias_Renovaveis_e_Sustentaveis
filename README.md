@@ -59,6 +59,10 @@ A missão utiliza energia solar como principal fonte de energia renovável.
 
 O sistema monitora a geração energética dos painéis solares e compara com o consumo da nave, permitindo avaliar a eficiência energética e a sustentabilidade da operação.
 
+## Relação com "inteligência artificial introdutória"
+
+Ultilizamos uma IA baseada em regras. O sistema analisa os dados recebidos e toma decisões automaticamente através de estruturas condicionais. Apesar de ser uma IA introdutória, ela atende ao objetivo proposto pelo desafio, que era implementar tomada de decisão automatizada diante de situações críticas.
+
 ## Tecnologias Utilizadas
 - Python
 
