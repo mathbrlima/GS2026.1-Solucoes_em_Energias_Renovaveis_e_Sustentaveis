@@ -17,40 +17,39 @@ A solução utiliza conceitos básicos de programação para gerar alertas autom
 Desenvolver um sistema capaz de:
 
 - Monitorar dados operacionais da missão.
-
 - Identificar situações críticas.
-
 - Gerar alertas automáticos.
-
 - Auxiliar na tomada de decisão.
-
 - Avaliar a sustentabilidade energética da missão.
 
 ## Funcionalidades
-Monitoramento
+MONITORAMENTO
 
 O usuário informa:
 
-Temperatura do módulo (°C)
-Nível de energia (%)
-Qualidade da comunicação (%)
-Geração de energia solar (kW)
-Consumo energético (kW)
-Alertas Automáticos
+- Temperatura do módulo (°C)
+- Nível de energia (%)
+- Qualidade da comunicação (%)
+- Geração de energia solar (kW)
+- Consumo energético (kW)
+
+ALERTAS AUTOMÁTICOS
 
 O sistema identifica:
 
-Temperatura crítica
-Energia baixa
-Falhas de comunicação
-Tomada de Decisão
+- Temperatura crítica
+- Energia baixa
+- Falhas de comunicação
+
+TOMADA DE DECISÃO
 
 O sistema realiza ações automatizadas como:
 
-Ativação do modo economia de energia
-Ativação do sistema de resfriamento
-Reinicialização da comunicação
-Sustentabilidade
+- Ativação do modo economia de energia
+- Ativação do sistema de resfriamento
+- Reinicialização da comunicação
+
+SUSTENTABILIDADE
 
 O sistema calcula o Índice Sustentável da missão utilizando a relação entre energia gerada pelos painéis solares e o consumo energético.
 
