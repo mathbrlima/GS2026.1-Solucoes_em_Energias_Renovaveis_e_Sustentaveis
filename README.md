@@ -1,6 +1,7 @@
 # GS2026.1 - Soluções em Energias Renováveis e Sustentáveis
 
-## Integrantes: 
+## Equipe: ARES-1
+Integrantes:
 
 Enzo Stahal Freitas | 569001
 
