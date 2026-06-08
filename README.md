@@ -1,4 +1,5 @@
 # GS2026.1 - Soluções em Energias Renováveis e Sustentáveis
+# Monitoramento Espacial Energético
 
 ## Equipe: ARES-1
 Integrantes:
