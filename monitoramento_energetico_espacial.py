@@ -3,9 +3,9 @@ from colorama import Fore, Style, init
 # Inicializa o Colorama
 init(autoreset=True)
 
-print(Fore.LIGHTCYAN_EX + "===================================")
-print(Fore.LIGHTCYAN_EX + " Monitoramento Espacial Energético")
-print(Fore.LIGHTCYAN_EX + "===================================")
+print(Fore.LIGHTCYAN_EX + "============================================")
+print(Fore.LIGHTCYAN_EX + " ARES-1 / Monitoramento Espacial Energético")
+print(Fore.LIGHTCYAN_EX + "============================================")
 
 # Entrada de dados
 print("\nForneça as informações da missão:")
