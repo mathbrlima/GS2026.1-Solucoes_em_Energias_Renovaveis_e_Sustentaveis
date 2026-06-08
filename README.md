@@ -1,6 +1,8 @@
 # GS2026.1 - Soluções em Energias Renováveis e Sustentáveis
+# Monitoramento Espacial Energético
 
-## Integrantes: 
+## Equipe: ARES-1
+Integrantes:
 
 Enzo Stahal Freitas | 569001
 
@@ -16,6 +18,7 @@ A solução utiliza conceitos básicos de programação para gerar alertas autom
 
 Desenvolver um sistema capaz de:
 
+- Coletar dados do usuário
 - Monitorar dados operacionais da missão.
 - Identificar situações críticas.
 - Gerar alertas automáticos.
@@ -37,17 +40,18 @@ ALERTAS AUTOMÁTICOS
 
 O sistema identifica:
 
-- Temperatura crítica
-- Energia baixa
-- Falhas de comunicação
+- Temperatura crítica (temperatura > 90°C)
+- Energia baixa (energia < 20%)
+- Falhas de comunicação (comunicação < 80%)
 
 TOMADA DE DECISÃO
 
 O sistema realiza ações automatizadas como:
 
-- Ativação do modo economia de energia
-- Ativação do sistema de resfriamento
-- Reinicialização da comunicação
+- Ativação do modo economia de energia (energia < 20%)
+- Ativação do sistema de resfriamento (temp. > 90°C)
+- Reinicialização da comunicação (comun. < 80%)
+- Sem Alertas (operação normal é mantida)
 
 SUSTENTABILIDADE
 
@@ -61,12 +65,12 @@ O sistema monitora a geração energética dos painéis solares e compara com o 
 
 ## Relação com "inteligência artificial introdutória"
 
-Ultilizamos uma IA baseada em regras. O sistema analisa os dados recebidos e toma decisões automaticamente através de estruturas condicionais. Apesar de ser uma IA introdutória, ela atende ao objetivo proposto pelo desafio, que era implementar tomada de decisão automatizada diante de situações críticas.
+Ultilizamos uma IA baseada em regras. O sistema analisa os dados recebidos e toma decisões automaticamente através de estruturas condicionais. Apesar de ser uma IA introdutória, ela atende ao objetivo proposto pelo desafio, que era implementar tomada de decisão automatizada diante de situações críticas. A lógica if/elif/else garante que apenas uma ação seja executada por ciclo.
 
 ## Tecnologias Utilizadas
-- Python
+- Python (linguagem de programação)
 
-- Colorama
+- Colorama (biblioteca do Python) - estilização do terminal para destacar visualmente cada seção do sistema, tornando a leitura mais clara e intuitiva ao usuário
 
 ## Exemplo de Uso
 
